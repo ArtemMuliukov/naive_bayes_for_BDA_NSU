@@ -57,7 +57,7 @@ def run_test(test_name = 'test1', r_s = 228, num_of_splits = 5):
     return scores
 
 if __name__ == "__main__":
-    r_s = 42
+    r_s = 4224
     num_of_splits = 10
     for i in range(1, 3):
         test_name = 'test' + str(i)
