@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-def cross_val_scorer(clf, X, y, n = 3 ,random_state = None):
+def cross_val_scorer(clf, X, y, n = 3, random_state = None):
 
     if random_state is not None:
         np.random.seed(random_state)
